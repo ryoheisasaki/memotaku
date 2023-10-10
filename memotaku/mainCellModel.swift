@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CellModel {
+class mainCellModel {
     
     @objc dynamic var id: String = UUID().uuidString
     
@@ -15,7 +15,7 @@ class CellModel {
     @objc dynamic var title: String = ""
     
     // 日時
-    @objc dynamic var time: String = "20XX/YY/ZZ"
+    @objc dynamic var date: String = "20XX/YY/ZZ"
     
     
 }
