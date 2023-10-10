@@ -2,11 +2,11 @@
 //  TableViiewCellDelegate.swift
 //  memotaku
 //
-//  Created by 佐々木遼平 on 2023/10/09.
+//  Created by 佐々木遼平 on 2023/10/08.
 //
 
 import Foundation
 
-protocol TableViewCellDelegate {
-//    func segue(sizeData: TweetCellModel)
+protocol TableViewCellDelegate : class {
+    func segue(sizeData: mainCellModel)
 }
